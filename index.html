@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/global.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
@@ -15,7 +15,7 @@
       <nav class="menu">
         
         <ul class="auction">
-          <li style="list-style: none;" >главная</li>
+          <li class="home">главная</li>
           <li><a href="">посмотреть лоты</a></li>
           <li><a href="">об аукционе</a></li>
         </ul>
@@ -23,10 +23,10 @@
       </nav>
 
       <a class="logo">
-        <img src="./images/logo-black.svg" alt="Логотип">
+        <img src="images/logo-black.svg" alt="Logo">
       </a>
 
-      <address class="contacts">
+     <address class="contacts">
         <a href= "+999955555555">+9 999 555 5555</a><br>
         <a href= "mail_to:info@sobaka.ge">info@sobaka.ge</a>
         <p>Наб. Принсенграхт 263-265. Амстердам</p>
@@ -37,38 +37,50 @@
       
       <section class="cover">
         
-        <img src="./images/cover.jpg" alt="Цветы" class="img">
-        <h1 class="O">оно</h1>
-        <h1 class="T">тебе</h1>
-        <h1 class="N">надо</h1>
-        <p  class="p">
+        
+        <h1 class="title-big">
+          <span class="ono">
+            оно
+          </span>
+           <span class="tebe">
+            тебе
+          </span>
+           <span class="nado">
+            надо
+          </span>
+         </h1>
+        
+        <p  class="cover_text">
           АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ
         </p>
         <div class="description">
-        <button >
-          Сделать ставку
-        </button>
+          <p>
+            <button>
+              Сделать ставку
+            </button>
+          </p>
+        
       </div>
       </section>
       <section class="lots">
         <h2 class="title">
-          лоты
+          ЛОТЫ
         </h2>
-        <ul class="ul" style="list-style: none;">
+        <ul class="block-card" >
           <li class="Frame">
-            <a href="" class="a">
+            <a href="" class="link">
               <article class="title-film">
-                Фильм режиссёра, который бросил киношколу
+               <h3> Фильм режиссёра, который бросил киношколу</h3>
               </article>
             </a>
-            <div class="text-film">
-              <p>Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+           <div class="text-film">
+                  <p >Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </div>
           </li>
           <li class="Frame-book">
-            <a href="" class="a">
+            <a href="" class="link">
               <article class="title-book">
-                  <P>Книга, где описан один скучный день из жизни рекламного агента</P>
+                  <h3>Книга, где описан один скучный день из жизни рекламного агента</h3>
               </article>
             </a>
             <div class="text-book">
@@ -76,9 +88,9 @@
             </div>
           </li>
           <li class="Frame-card">
-            <a href="" class="a">
+            <a href="" class="link">
               <article class="title-card">
-                <p >Картина, которую повторит даже 5-летний сын маминой подруги</p>
+                <h3 >Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               </article>
             </a>
             <div class="text-card">
@@ -89,15 +101,15 @@
         <a href="" class="more">посмотреть больше</a>
       </section>
       <section class="about">
-        <span class="circle">
-          <img src="./images/logo-white.svg" alt="Логотип Белый">
-        </span>
-        <section class="about-column">
+        <div class="circle">
+          <img src="images/logo-white.svg" alt="logo-white">
+        </div>
+        <div class="about-column">
           <h2 class="caption">
             ОБ АУКЦИОНЕ
           </h2>
           <div class="description-block">
-            <p class="txt">
+            <p class="paragraph">
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
             </p>
             <p class="paragraph">
@@ -105,28 +117,28 @@
 на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.  
             </p>
           </div>
-        </section>
+        </div>
         
       </section>
     </main>
     <footer class="footer">
       
-       <address class="contac">
+       <address class="social-info">
         <a href="+999955555555">+9 999 555 5555</a><br>
         <a href="mail_to:info@sobaka.ge">info@sobaka.ge</a>
         <p>Наб. Принсенграхт 263-265. Амстердам</p>
       </address>
       <nav class="Add">
-       <ul style="list-style: none">
+        <ul class="footer-menu">
           <li>главная</li>
           <li><a href="">посмотреть лоты</a></li>
           <li><a href="">об аукционе</a></li>
-       </ul>  
+        </ul>
       </nav>
-      <div class="ad">
-      <a href="" class="yt"><img src="./images/yt.svg" alt="Кнопка  YouTube"></a>
-      <a href="" class="vk"><img src="./images/vk.svg" alt="Кнопка  VK"></a>
-      <a href="" class="pin"><img src="./images/pinterest.svg" alt="Кнопка  pinterest"></a>
+      <div class=" footer-socials ">
+      <a href="" class="yt"><img src="images/yt.svg" alt="youtube"></a>
+      <a href="" class="vk"><img src="images/vk.svg" alt="VK"></a>
+      <a href="" class="vk"><img src="images/pinterest.svg" alt="pinterest"></a>
       </div>
       
     </footer>
