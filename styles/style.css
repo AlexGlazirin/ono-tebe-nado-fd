@@ -1,9 +1,12 @@
 .header{
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items:center;
+    align-items:center;  
     width: 1100px;
     height: 293px;
+    left: 0px;
+    top: 0px;
+   
 }
 
 .menu{
@@ -12,6 +15,7 @@ width: 391.48;
 height: 22px;
 padding-left: 50px;
 padding-top: 30px;
+
 }
 
 .auction{
@@ -19,6 +23,8 @@ padding-top: 30px;
     align-items: flex-start; 
     column-gap: 60px;
     list-style-type: circle;
+
+   
 }
 
 p{
@@ -28,16 +34,24 @@ p{
 .logo{
     width: 148px;
     min-height: 105px;
-   padding-top: 55px;
-    padding-left: 50px;  
+    padding-top: 25px;   
+    width: 148px;
+    height: 105px;
+    margin-left: 35.52px;
+    left: calc(50% - 148px/2 + 2px);
+
 }
 
 .contacts{
     max-width: 240px;
     height: 80px;
     padding-left: 5px;
+    margin-right: 50px;
     padding-top: 35px;
     justify-self:end;
+    width: 240px;
+    height: 98px;
+
 }
 
 .main{
@@ -45,7 +59,12 @@ p{
 }
 
 .cover{
+    
     position: relative;
+    width: 1100px;
+height: 757px;
+left: 0px;
+
 }
 .cover img{
     display: block;
@@ -55,40 +74,58 @@ p{
 
 .O{
     position: absolute;
-  top: 20%;
-  left: 10%;
-  color: white; 
-  font-size: 100px;
-  font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
-  z-index: 1;
-  letter-spacing:15px;
-  text-transform: uppercase;
+    color: white;
+   width: 286px;
+    height: 115px;
+    left: 50px;
+    top: 165px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 }
 
 .T{
-    position: absolute;
-  top: 35%;
-  left: 35%;
-  color: white; 
-  font-size: 100px;
-  font-weight: bold;
-  z-index: 1;
-  letter-spacing:15px;  
-  text-transform: uppercase;
+ position: absolute;
+width: 339px;
+height: 115px;
+left: calc(50% - 339px/2);
+top: 300px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 115%;
+text-align: center;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: whitetext-align: center;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: white;
 }
 
 .N{
-    position: absolute;
-  top: 55%;
-  left: 60%;
-   font-size: 100px;
-  font-weight: bold;
-   z-index: 1;
-  color: white;
-  letter-spacing:15px;   
-  text-transform: uppercase;
+position: absolute;
+width: 387px;
+height: 115px;
+left: 663px;
+top: 435px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 115%;
+text-align: right;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: white;
 }
+
+
 
 .p{
     position: absolute;
@@ -127,12 +164,18 @@ p{
     grid-template-columns: repeat(3, 1fr);
 }
 
-.title{
-    font-size: 40px;
+.title{ 
     width: 121px;
-    min-height: 47px;
-    margin-left: 40px;
+    height: 47px;
+    left: 40px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
     text-transform: uppercase;
+    color: #000000;
 }
 .Frame{
     display: grid;
