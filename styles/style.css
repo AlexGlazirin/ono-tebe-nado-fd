@@ -14,7 +14,7 @@ padding-left: 50px;
 padding-top: 30px;
 }
 
-.block1{
+.auction{
     display: flex;  
     align-items: flex-start; 
     column-gap: 60px;
@@ -44,10 +44,10 @@ p{
     display: contents;   
 }
 
-.cover1{
+.cover{
     position: relative;
 }
-.cover1 img{
+.cover img{
     display: block;
   filter: brightness(50%);
   height:720px;
@@ -62,7 +62,8 @@ p{
   font-weight: bold;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
   z-index: 1;
-  letter-spacing:15px;  
+  letter-spacing:15px;
+  text-transform: uppercase;
 }
 
 .T{
@@ -74,6 +75,7 @@ p{
   font-weight: bold;
   z-index: 1;
   letter-spacing:15px;  
+  text-transform: uppercase;
 }
 
 .N{
@@ -85,6 +87,7 @@ p{
    z-index: 1;
   color: white;
   letter-spacing:15px;   
+  text-transform: uppercase;
 }
 
 .p{
@@ -129,10 +132,11 @@ p{
     width: 121px;
     min-height: 47px;
     margin-left: 40px;
+    text-transform: uppercase;
 }
-.Frame1{
+.Frame{
     display: grid;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('card-lot-01.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/card-lot-01.jpg');
     width:334px ;
     height: 596px;
     margin-top: 74px;
@@ -142,7 +146,7 @@ p{
 }
 
 
-.title2{
+.title-film{
     position: relative;
     text-align:left;
     z-index: 10;
@@ -155,11 +159,11 @@ p{
     font-weight: bold;
 }
 
-.a1{
+.a{
     color: white;
 }
 
-.text1{
+.text-film{
     position: absolute;
     color: white;
     font-size: 20px;
@@ -170,9 +174,9 @@ p{
     line-height:120%;
 }
 
-.Frame2{
+.Frame-book{
     display: grid;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('card-lot-02.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/card-lot-02.jpg');
     width:334px ;
     height: 596px;
     margin-top: 74px;
@@ -182,7 +186,7 @@ p{
 }
 
 
-.title3{
+.title-book{
     position: relative;
     text-align:left;
     padding-left: 40px;
@@ -195,7 +199,7 @@ p{
     line-height:120%;
 }
 
-.text2{
+.text-book{
     position: absolute;
     color: white;
     font-size: 20px;
@@ -206,9 +210,9 @@ p{
     line-height:120%;
 }
 
-.Frame3{
+.Frame-card{
     display: grid;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('card-lot-03.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/card-lot-03.jpg');
     width:334px ;
     height: 596px;
     margin-top: 74px;
@@ -218,7 +222,7 @@ p{
 }
 
 
-.title4{
+.title-card{
     position: relative;
     text-align:left;
     padding-left: 40px;
@@ -230,7 +234,7 @@ p{
     font-size: 24px;    
 }
 
-.text3{
+.text-card{
     position: absolute;
     color: white;
     font-size: 20px;
@@ -242,7 +246,7 @@ p{
     line-height:120%;    
 }
 
-.a2{
+.more{
     display: flex;
     padding-top: 30px;
     padding-left: 40px;
@@ -283,7 +287,7 @@ p{
     
 }
 
-.title5{
+.caption{
   font-size: 40px;
 }
 
@@ -294,13 +298,13 @@ p{
     font-size: 20px;
 }
 
-.text4{
+.txt{
     width: 688px;
     height: 120px;
     font-size: 20px;
     
 }
-.text5{
+.paragraph{
     width: 693px;
     height: 168px;
     font-size: 20px;
@@ -316,7 +320,7 @@ p{
     height: 180px;
 }
 
-.menu2{
+.Add{
     display: flex;   
     margin-left: 15%;
     width: 163.9px;
@@ -324,7 +328,7 @@ p{
     text-align: center;
 }
 
-.contacts2{
+.contac{
     max-width: 264.57px;
     height: 98px;
     margin-left: 50px;
